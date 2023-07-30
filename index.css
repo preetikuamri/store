@@ -1,0 +1,398 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.link li{
+    margin: 0px 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.link li.active{
+    color: #FBB21A;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: Roboto Condensed;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons i{
+    margin: 0px 10px;
+}
+.banner{
+    display: flex;
+    position: relative;
+    
+}
+#left{
+    flex-basis: 65%;
+    background-color: #FFF7E7;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tagline {
+    width: 40%;
+    min-height: 200px;
+}
+
+#text1{
+    font-family: REM;
+    color: #FBB21A;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 2px;
+    letter-spacing: 1px;
+}
+
+#text2{
+    font-family: Roboto;
+    font-size: 40px;
+    color: #041B44;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#contact-us {
+    padding: 10px 15px;
+    background-color: #081C43;
+    display: inline-block;
+    color: #BDC0CF;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.dots {
+    position: absolute;
+    display: flex;
+    bottom: 12%;
+    width:26%;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+    border: 1px solid #081C43;
+}
+
+.dot.active {
+    background-color: #081C43;
+}
+
+.image{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: #C1C2C6;
+    top: 15%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right{
+    flex-basis: 35%;
+    background-color: #9CA4B5;
+    height: 550px;
+}
+.second-pannel{
+    display: flex;
+    position: relative;
+    
+}
+#second-pannel-left{
+    flex-basis: 50%;
+    background-color: #F2F3F5;
+    height: 500px;
+
+}
+#second-pannel-right{
+    flex-basis: 50%;
+    background-color: #FFFFFF;
+    height: 500px;
+    
+}
+
+.services{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.srv-container {
+    display: flex;
+}
+
+.service{
+    height: 300px;
+    width: 300px;
+    background-color: #081C43;
+    margin-right: 20px;
+}
+
+.third-pannel{
+    display: flex;
+    position: relative;
+    
+}
+#third-pannel-left{
+    flex-basis: 50%;
+    background-color: #9CA4B5;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#third-pannel-right{
+    flex-basis: 50%;
+    background-color: #F2F3F5;
+    height: 500px;
+}
+
+.title {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 32px;
+    color: #17294D;
+    margin: 0px 0px 30px 0px;
+}
+
+.about-us-panel {
+    margin: 60px 0 0 60px;
+    width: 70%;
+
+}
+
+.about-us {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 32px;
+    color: #17294D;
+}
+
+.text {
+    font-family: 'Exo 2';
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.about-us-panel .points {
+    font-family: 'REM';
+    font-size: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+    color: #17294D;
+}
+
+.about-us-panel .points.active {
+    color: #FBB21A;
+}
+
+.points .sub-text{
+    font-size: 12px;
+    color: #051A43;
+}
+
+.fourth-pannel{
+    display: flex;
+    position: relative;
+    
+}
+#fourth-pannel-left{
+    flex-basis: 50%;
+    background-color: #F2F3F5;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#fourth-pannel-right{
+    flex-basis: 50%;
+    background-color: #FFFFFF;
+    height: 300px;
+    
+}
+
+.highlights {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.highlight{
+    width: 200px;
+    height: 100px;
+    margin: 0 10px 10px 0;
+    background-color: #041B44;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.highlight .h-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service .s-icon{
+    font-size: 72px;
+    color: #ffffff;
+    padding: 30px 0 0 30px;
+    margin-bottom: 20px;
+}
+
+.service .s-heading {
+    font-family: Roboto Condensed;
+    padding-left: 30px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.service .s-subtext {
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #B6BCC9;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.service .s-readmore {
+    text-decoration: underline;
+    padding-left: 30px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.highlight .h-text {
+    font-size: 36px;
+    color: #FBB21A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+    font-family: 'Exo 2';
+    font-family: 700;
+}
+
+.highlight .h-text .sub-text {
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.exp {
+    width: 50%;
+}
+
+.exp .yoe {
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 700;
+    color: #FBB21A;
+    margin-bottom: 0;
+}
+
+.exp .exp-text {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 32px;
+    color: #17294D;
+    margin-top: 5px;
+}
+
+.exp .exp-sub-text {
+    font-size: 12px;
+    color: #051A43;
+    font-family: Montserrat;
+}
+
+.projects {
+    background-color: #FFF7E7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-container {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.project {
+    flex-basis: 25%;
+    padding: 10px;
+    margin: 15px;
+    background-color: #9CA4B5;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project.active {
+    background-color: #081C43;
+}
+
+.heading {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 32px;
+    color: #17294D;
+    margin-left: 12%;
+    margin-top: 100px;
+}
+
+.project-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
